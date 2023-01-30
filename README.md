@@ -8,6 +8,7 @@ URL: https://react-entrega-s1-template-nu-kenzie-kelvin-silva10.vercel.app/
 
 Tecnologias aplicadas: 
 
+<li>JavaScript</li>
 <li>React</li>
 
 <h2>Inicializando o projeto</h2>
