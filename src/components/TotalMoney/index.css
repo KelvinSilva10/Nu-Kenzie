@@ -1,0 +1,37 @@
+.div__total {
+    background: #FFFFFF;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    margin-top: 16px;
+    padding: 20px 26px;
+    max-width: 363px;
+    width: 90%;
+}
+
+.div__total div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div__total div h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #212529;
+}
+
+.div__total div span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FD377E;
+}
+
+.div__total p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 22px;
+    color: #343A40;
+    margin-top: 10px;
+}

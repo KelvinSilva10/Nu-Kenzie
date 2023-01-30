@@ -1,0 +1,138 @@
+form {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  width: 90%;
+  max-width: 363px;
+  padding: 38px 26px;
+}
+
+form label {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 22px;
+  color: #212529;
+}
+
+form input {
+  width: 100%;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  padding: 13px 16px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 26px;
+  margin-top: 12px;
+}
+
+form input::placeholder {
+  color: #868e96;
+}
+
+form > span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #868e96;
+  margin-top: 4px;
+}
+
+form div {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+form div div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form div div label {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 22px;
+  color: #212529;
+  margin-top: 17px;
+}
+
+.div__input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.div__input span {
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  padding: 13px 16px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 26px;
+  margin-top: 12px;
+}
+
+form div div input {
+  width: 60%;
+  max-width: 140px;
+}
+
+input:focus {
+  color: #212529;
+}
+
+form div div select {
+  width: 100%;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  padding: 13px 16px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 26px;
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 26px;
+  color: #343a40;
+}
+
+select:focus {
+  color: #212529;
+}
+
+form div div select option {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 26px;
+  color: #343a40;
+}
+
+form button {
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  padding: 13px 20px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #ffffff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #e34981;
+  border: 2px solid #e34981;
+}
+
+@media (min-width: 769px) {
+  form div {
+    flex-direction: row;
+  }
+}
