@@ -4,7 +4,7 @@ Um app para gerenciamento de finanças.
 
 URL: https://react-entrega-s1-template-nu-kenzie-kelvin-silva10.vercel.app/
 
-<img src='https://my-portfolio-kappa-jade.vercel.app/static/media/Kenzie-Hub.cf38aa05b17dad7ed5f1.png'/> 
+<img src=https://my-portfolio-kappa-jade.vercel.app/static/media/Nu-Kenzie.17731b6c5a1c511496aa.png'/> 
 
 Tecnologias aplicadas: 
 
